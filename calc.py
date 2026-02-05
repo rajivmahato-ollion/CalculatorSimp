@@ -1,4 +1,4 @@
-import tkinter as tk
+
 
 LARGE_FONT_STYLE = ("Aria", 40, "bold")
 SMALL_FONT_STYLE = ("Arial", 16)
