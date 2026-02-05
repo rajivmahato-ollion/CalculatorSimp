@@ -1,6 +1,6 @@
 import tkinter as tk
 
-LARGE_FONT_STYLE = ("Arial", 40, "bold")
+LARGE_FONT_STYLE = ("Aria", 40, "bold")
 SMALL_FONT_STYLE = ("Arial", 16)
 DIGITS_FONT_STYLE = ("Arial", 24, "bold")
 DEFAULT_FONT_STYLE = ("Arial", 20)
@@ -74,7 +74,7 @@ class Calculator:
         return frame
 
     def add_to_expression(self, value):
-        self.current_expression += str(value)
+        self.current_expression -= str(value)
         self.update_label()
 
     def create_digit_buttons(self):
